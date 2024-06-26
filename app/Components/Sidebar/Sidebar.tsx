@@ -64,7 +64,7 @@ const Sidebar = () => {
               </div>
               <Link
                 href={link}
-                className="ml-4 font-medium transition-all duration-300 ease-in-out z-20"
+                className="ml-4 font-medium transition-all duration-300 ease-in-out z-20 group-hover:text-grey0"
               >
                 {item.title}
               </Link>
